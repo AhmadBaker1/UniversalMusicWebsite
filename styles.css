@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+li, a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 300px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links a:hover {
+    color: #0088a9;
+}
+
+.carousel-container {
+    width: 1245px;
+    height: 700px;
+    margin: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+#prevBtn:hover {
+    background-color: gray;
+    transition: 0.4s ease-in-out;
+}
+
+#nextBtn:hover {
+    background-color: gray;
+    transition: 0.4s ease-in-out;
+}
+
+.paragraph {
+    color: white;
+    padding: 20px;
+    margin: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.message-title {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer {
+    padding: 40px 0px;
+    background-color: #484848;
+    opacity: 0.7;
+}
+
+.footer .social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .social a {
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
